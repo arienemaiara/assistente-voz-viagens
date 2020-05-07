@@ -20,10 +20,10 @@ O projeto tem como objetivo auxiliar turistas em suas viagens a partir de comand
  12. Informar documentos necessários da viagem
   
 ## Integrantes da Equipe
-Ariene Maiara - Scrum Master
-Jonatas Ferreira - Desenvolvedor
-Johnny - Desenvolvedor
-Danilo - Desenvolvedor
-Carlos Vinicius - Desenvolvedor
-Devanir - Desenvolvedor
-Jeferson Neves
+ 1. Ariene Maiara - Scrum Master
+ 2. Jonatas Ferreira - Desenvolvedor
+ 3. Johnny - Desenvolvedor
+ 4. Danilo - Desenvolvedor
+ 5. Carlos Vinicius - Desenvolvedor
+ 6. Devanir - Desenvolvedor
+ 7. Jeferson Neves
