@@ -19,3 +19,11 @@ O projeto tem como objetivo auxiliar turistas em suas viagens a partir de comand
  11. Indicação de caixas eletrônicos
  12. Informar documentos necessários da viagem
   
+## Integrantes da Equipe
+Ariene Maiara - Scrum Master
+Jonatas Ferreira - Desenvolvedor
+Johnny - Desenvolvedor
+Danilo - Desenvolvedor
+Carlos Vinicius - Desenvolvedor
+Devanir - Desenvolvedor
+Jeferson Neves
