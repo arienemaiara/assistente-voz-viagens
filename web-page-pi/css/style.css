@@ -1,0 +1,71 @@
+body {
+  background: #141414;
+}
+
+.titulo{
+  font-family: "montserrat";
+  color: white;
+}
+
+.mascotdiv {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mascot {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.buttondiv {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; left: 10px;
+}
+
+.button1 {
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+
+.buttoncolor {
+  color: #3498db;
+}
+
+.buttoncolor:hover{
+  color: #fff;
+}
+
+.button1::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.buttoncolor::before {
+  top: 0;
+  border-radius: 0 0 50% 50% 50%;
+}
+
+.buttoncolor:hover::before{
+  height: 180%;;
+}
