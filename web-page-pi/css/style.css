@@ -2,12 +2,31 @@ body {
   background: #141414;
 }
 
-.titulo{
-  font-family: "montserrat";
-  color: white;
+.comments {
+  width: 400px;
 }
 
-.mascotdiv {
+.comments .comment{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.comments .comment p{
+  margin: 0 0 10px 0;
+}
+
+.bubble {
+  position: relative;
+  background: #fff;
+  padding: 10px;
+  color: #222;
+  border-radius: 3px;
+}
+
+.fontbubble {
+  font-family: 'Montserrat';
+}
+
+.position {
   width: auto;
   height: auto;
   display: flex;
@@ -15,9 +34,11 @@ body {
   justify-content: center;
 }
 
-.mascot {
-  max-width: 300px;
-  max-height: 300px;
+.assistant {
+  max-width: 400px;
+  max-height: 400px;
+  margin-top: 200px;
+  margin-left: 50px;
 }
 
 .buttondiv {
@@ -26,7 +47,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative; left: 10px;
+  margin-top: 50px;
 }
 
 .button1 {
@@ -34,7 +55,7 @@ body {
   background: none;
   padding: 10px 20px;
   font-size: 20px;
-  font-family: "montserrat";
+  font-family: 'Montserrat';
   cursor: pointer;
   margin: 10px;
   transition: 0.8s;
