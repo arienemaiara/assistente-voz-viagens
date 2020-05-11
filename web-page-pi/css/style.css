@@ -1,5 +1,5 @@
 body {
-  background: #141414;
+  background-color: white;
 }
 
 .comments {
@@ -12,18 +12,32 @@ body {
 }
 .comments .comment p{
   margin: 0 0 10px 0;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial;
 }
 
 .bubble {
   position: relative;
-  background: #fff;
-  padding: 10px;
-  color: #222;
-  border-radius: 3px;
+  padding: 2em;
+  border-radius: .3em;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
 }
 
-.fontbubble {
-  font-family: 'Montserrat';
+.bubble::after {
+  content: "";
+  display: block;
+  position: absolute;
+
+  right: -15px;
+  bottom: 5px;
+
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 15px solid #FFF;
+
 }
 
 .position {
@@ -55,12 +69,13 @@ body {
   background: none;
   padding: 10px 20px;
   font-size: 20px;
-  font-family: 'Montserrat';
+  font-family: Arial;
   cursor: pointer;
   margin: 10px;
   transition: 0.8s;
   position: relative;
   overflow: hidden;
+  border-radius: 50%;
 }
 
 .buttoncolor {
@@ -88,5 +103,5 @@ body {
 }
 
 .buttoncolor:hover::before{
-  height: 180%;;
+  height: 180%;
 }
