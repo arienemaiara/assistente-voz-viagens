@@ -25,5 +25,5 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative; bottom: 300px;
+  position: relative; bottom: 200px;
 }
