@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #fff;
 }
 
 .comments {
@@ -65,7 +65,7 @@ body {
 }
 
 .button1 {
-  border: 1px solid #3498db;
+  border: 1px solid #7dce94;
   background: none;
   padding: 10px 20px;
   font-size: 20px;
@@ -79,7 +79,7 @@ body {
 }
 
 .buttoncolor {
-  color: #3498db;
+  color: #7dce94;
 }
 
 .buttoncolor:hover{
@@ -92,7 +92,7 @@ body {
   left: 0;
   width: 100%;
   height: 0%;
-  background: #3498db;
+  background: #7dce94;
   z-index: -1;
   transition: 0.8s;
 }

@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+p {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+.container {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; bottom: 200px;
+}
