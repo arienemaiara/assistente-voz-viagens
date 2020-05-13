@@ -1,4 +1,7 @@
 body {
+  background-image: url('backimage.png');
+  background-repeat: no-repeat, repeat;
+  background-position: center;
   background-color: #fff;
 }
 
@@ -10,6 +13,7 @@ body {
   width: 100%;
   margin-bottom: 10px;
 }
+
 .comments .comment p{
   margin: 0 0 10px 0;
   font-weight: bold;
@@ -21,7 +25,12 @@ body {
   position: relative;
   padding: 2em;
   border-radius: .3em;
-  box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+  background-color: #fff;
+}
+
+.bubble:hover {
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
 }
 
 .bubble::after {
@@ -36,8 +45,7 @@ body {
   height: 0;
   border-top: 8px solid transparent;
   border-bottom: 8px solid transparent;
-  border-left: 15px solid #FFF;
-
+  border-left: 15px solid #fff;
 }
 
 .position {
