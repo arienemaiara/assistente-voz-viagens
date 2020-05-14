@@ -13,6 +13,6 @@ O projeto tem como objetivo auxiliar turistas em suas viagens a partir de comand
  5. Criação da página inicial do projeto ("web-page-pi");
  6. Criação da página "P.I. em construção" para indicar onde será a página principal do projeto (web-page-pi);
  7. Atualização do comando de voz ("assistente-voz-viagens-comando_voz_atualizado");
- 8. Construção de um algoritmo para exibir comando de voz em outro documento HTML (podendo ser visualizado na mesma pasta do item 7).
+ 8. Construção de um algoritmo para exibir comando de voz em outro documento HTML (pode ser visualizado na mesma pasta do item 7).
 
 	
