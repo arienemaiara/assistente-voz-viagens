@@ -6,18 +6,11 @@ O projeto tem como objetivo auxiliar turistas em suas viagens a partir de comand
 
 ### Funcionalidades do sistema:
 
- 1. Criação de viagem
- 2. Indicação de locais
- 3. Descrição do local
- 4. Indicação de trajetos
- 5. Estatísticas sobre viagens passadas
- 6. Busca preço de passagem
- 7. Indicação de horários de voos/ônibus
- 8. Notícias recentes da cidade
- 9. Conversão de moeda
- 10. Informar clima
- 11. Indicação de caixas eletrônicos
- 12. Informar documentos necessários da viagem
+1. Conversão de moeda
+2. Informar clima
+3. Indicação de cidades
+4. Notícias recentes da cidade
+5. Informar documentos necessários da viagem
   
 ## Integrantes da Equipe
  1. Ariene Maiara - Scrum Master
@@ -26,4 +19,4 @@ O projeto tem como objetivo auxiliar turistas em suas viagens a partir de comand
  4. Danilo - Desenvolvedor
  5. Carlos Vinicius - Desenvolvedor
  6. Devanir - Desenvolvedor
- 7. Jeferson Neves
+ 7. Jeferson Neves - Desenvolvedor
