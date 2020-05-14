@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+p {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+.container {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wip {
+  position: relative; bottom: 100px;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; bottom: 200px;
+}
+
+#saida{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; bottom: 250px;
+  color: green;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+}
+.container3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; bottom: 240px;
+ 
+}
