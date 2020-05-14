@@ -1,6 +1,6 @@
 # Assistente de voz para viagens
 
-O projeto tem como objetivo auxiliar turistas em suas viagens a partir de comando de voz.
+O projeto tem como objetivo auxiliar turistas em suas viagens a partir de comandos de voz.
 
 #### Projeto desenvolvido para o curso de Banco de Dados da FATEC São José dos Campos
 
@@ -8,11 +8,8 @@ O projeto tem como objetivo auxiliar turistas em suas viagens a partir de comand
 
  1. Escolha das tecnologias (HTML, CSS, JavaScript e jQuery);
  2. Construção do algoritmo básico de reconhecimento de voz (branch "voz");
- 3. Protótipo da função: indicação de locais ("assistente-de-voz-mapa");
- 4. Protótipo da função: criação de viagens ("assistente-voz-viagens-bd");
- 5. Criação da página inicial do projeto ("web-page-pi");
- 6. Criação da página "P.I. em construção" para indicar onde será a página principal do projeto (web-page-pi);
- 7. Atualização do comando de voz ("assistente-voz-viagens-comando_voz_atualizado");
- 8. Construção de um algoritmo para exibir comando de voz em outro documento HTML (pode ser visualizado na mesma pasta do item 7).
-
-	
+ 3. Protótipo da função: indicação de locais (branch "mapa");
+ 4. Protótipo da função: criação de viagens (branch "bd");
+ 5. Criação da página inicial do projeto (branch "pagina-inicial");
+ 6. Criação da página "P.I. em construção" para indicar onde será a página principal do projeto (branch "pagina-inicial").
+  
