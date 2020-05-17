@@ -20,3 +20,5 @@ O projeto tem como objetivo auxiliar turistas em suas viagens a partir de comand
  5. Carlos Vinicius - Desenvolvedor
  6. Devanir - Desenvolvedor
  7. Jeferson Neves - Desenvolvedor
+ 
+ [Vídeo da primeira/segunda entrega](https://www.loom.com/share/fa1e0fa0c4724228a0d2edfdfc510cff)
