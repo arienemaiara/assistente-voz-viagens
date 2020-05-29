@@ -9,7 +9,7 @@
       recognition.onresult = function(event) {
         for (let i = event.resultIndex; i < event.results.length; i++) {
           if (event.results[i][0].transcript.trim()=== 'calculadora'){
-            window.open('pagina-conversao-moedas.html');
+            window.location.href = 'pagina-conversao-moedas.html';
           }
           }
         }
