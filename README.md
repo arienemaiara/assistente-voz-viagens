@@ -2,7 +2,7 @@
 
 # Assistente de voz para viagens
 
-Uma assistente guiada por comando de voz para auxilia-lo em sua viagem e estadia.
+Uma assistente guiada por comando de voz para auxiliá-lo em sua viagem e estadia.
 
 ## Features
 
