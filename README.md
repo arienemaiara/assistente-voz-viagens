@@ -21,4 +21,4 @@ O projeto tem como objetivo auxiliar turistas em suas viagens a partir de comand
  6. Devanir - Desenvolvedor
  7. Jeferson Neves
 
-[Vídeo Funcionalidades](https://www.loom.com/share/e278bb8315e64a10ac1ad66cdca3954c)
+[Vídeo Funcionalidades Entrega 3](https://www.loom.com/share/e278bb8315e64a10ac1ad66cdca3954c)
