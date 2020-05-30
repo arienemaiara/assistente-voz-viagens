@@ -25,12 +25,12 @@ Uma assistente guiada por comando de voz para auxiliá-lo em sua viagem e estadi
 ### Integrantes da Equipe
 
 - Ariene Maiara - Scrum Master
-- Jonatas Ferreira - Desenvolvedor
-- Johnny - Desenvolvedor (Backend)
 - Carlos Vinícius - Desenvolvedor (Fullstack)
 - Danillo - Desenvolvedor
 - Devanir - Desenvolvedor (Backend)
+- Johnny - Desenvolvedor (Backend)
 - Jeferson - Desenvolvedor (Frontend)
+- Jonatas Ferreira - Desenvolvedor
 
 ## Uso
 
