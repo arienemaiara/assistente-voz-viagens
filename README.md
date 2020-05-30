@@ -40,4 +40,4 @@ Siga as instruções nas caixas de diálogo e pronto!
 
 ### Vídeo da Entrega 3
 
-(https://www.loom.com/share/e278bb8315e64a10ac1ad66cdca3954c)
+(https://www.loom.com/share/620975322c244b12bfc26a5ca0351037)
