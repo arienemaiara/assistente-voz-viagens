@@ -3,9 +3,10 @@
         const output = document.querySelector('#output');
         function start() {
           const recognition = new webkitSpeechRecognition();
-          recognition.interimResults = true;
+          recognition.interimResults = false;
           recognition.lang = "pt-BR";
-          recognition.continuous = true;
+          recognition.continuous = false;
+          recognition.maxAlternatives = 1;
           recognition.start();
           // Quando você fala no microfone:
           recognition.onresult = function(event) {
@@ -17,6 +18,7 @@
                 // Aqui transformo a string em var e coloco no link
                 var city = content;
                 window.open('http://www.google.com.br/maps/place/'+ city);
+          recognition.stop();
               }
             }
           };
