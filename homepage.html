@@ -1,48 +1,59 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang = "pt-br">
   <head>
-    <title>Seu Assistente de Viagens</title>
+    <title>Assistente</title>
+    <meta charset = "utf-8" />
     <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <p id="output"></p>
   </head>
+
   <body>
+
     <div class="container">
-      <img class= "wip" src="wip3.png">
-    </div>
-    <div class="container2">
-      <p>Desculpe, <u>P.I.</u> em construção...</p>
-    </div>
 
-    <div class="container3">
-      <p>Eis aqui, o comando que você escolheu para entrar: </p>
-    </div>
-    
-    <div id="saida"></div>
-    <script>
-      window.onload = CapturaParametrosUrl();
+        <nav class="navbar-container">
+          <ul class="list-style">
+            <li class="list-style2">
+              <a class="link-style" target="_blank" href="https://github.com/arienemaiara/assistente-voz-viagens">
+              <img src="img/github2.png">Github
+              </a>
+            </li>
+            <li class="list-style2">
+              <a class="link-style" href="#">
+                <img src="img/book.png">Documentação
+              </a>
+            </li>
+          </ul>
+        </nav>
 
-    function CapturaParametrosUrl() {
-        var url = window.location.href; 
-        var res = url.split('?'); 
-            
-        if (res[1] !== undefined) {
-            var parametros = res[1].split('&');         
-            var qtdParametrosParaLer = 1; 
-            var parametroEncontrado = new Array(); 
-            var valorParametro = new Array();
-            
-            for (var cont = 0; cont<=qtdParametrosParaLer; cont++)
-            {
-                if (parametros[cont] !== undefined) 
-                {
-                    captura = parametros[cont].split('=');			
-                    parametroEncontrado[cont] = captura[0];
-                    valorParametro[cont] = captura[1];
-                    
-                    document.getElementById('saida').innerHTML += parametroEncontrado[cont] +  valorParametro[cont];
-                }
-            }
-        }
-    }
-    </script>
+      <div class="container2">
+        <div class="container3">
+          <div class="boxes">
+            <img src="img/map2.png">
+            <p>Clique no botão e fale o nome do destino para ser direcionado até o mapa.</p>
+            <button id="start" class="button-style">
+              <img src="img/mic2.png">
+              <script src="js/mapa.js"></script>
+            </button>
+          </div>
+          <div class="boxes">
+            <img src="img/dollar-sign1.png">
+            <p>Clique no botão e fale "calculadora" para abrir nosso conversor de moeda!</p>
+            <button id="start2" class="button-style">
+              <img src="img/mic2.png">
+              <script src="js/iniciarvoz2.js"></script>
+            </button>
+          </div>
+          <div class="boxes">
+            <img src= "img/clima.png">
+            <p>Clique no botão e fale "clima" e veja o clima da cidade onde voce êstá.</p>
+            <button id="start3" class="button-style">
+              <img src="img/mic2.png">
+              <script src="js/iniciarvoz3.js"></script>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

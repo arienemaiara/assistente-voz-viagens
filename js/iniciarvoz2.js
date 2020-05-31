@@ -1,16 +1,16 @@
 (() => {
-    const startBtn = document.querySelector('#start');
-    const output = document.querySelector('#output');
+    const startBtn = document.querySelector('#start2');
     function start() {
       const recognition = new webkitSpeechRecognition();
-      recognition.interimResults = true;
+      recognition.interimResults = false;
       recognition.lang = "pt-BR";
-      recognition.continuous = true;
+      recognition.continuous = false;
       recognition.start();
       recognition.onresult = function(event) {
         for (let i = event.resultIndex; i < event.results.length; i++) {
-          if (event.results[i][0].transcript.trim()=== 'iniciar'){
-            window.location.href = 'homepage.html';
+          if (event.results[i][0].transcript.trim()=== 'calculadora'){
+            window.open('pagina-conversao-moedas.html');
+      recognition.stop();
           }
           }
         }
