@@ -66,3 +66,6 @@ Siga as instruções nas caixas de diálogo e pronto!
 
 (https://www.loom.com/share/620975322c244b12bfc26a5ca0351037)
 >>>>>>> sprint3
+
+### Vídeo da Entrega 2
+[Vídeo da primeira/segunda entrega](https://www.loom.com/share/fa1e0fa0c4724228a0d2edfdfc510cff)
