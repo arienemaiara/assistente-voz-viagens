@@ -54,6 +54,11 @@ html, body {
   font-size: 20px;
 }
 
+#resultado2 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
 @media screen and (max-width: 700px) {
   .quote2 {
     width: 35%;
