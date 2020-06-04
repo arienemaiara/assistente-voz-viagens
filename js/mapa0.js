@@ -12,8 +12,11 @@ window.onload = function() {
 //pega o resultado da recognition.start() e compara
 recognition.onresult = function(event) {
   for (let i = event.resultIndex; i < event.results.length; i++) {
-    if (event.results[i].isFinal) {
-      window.location.href = ('http://www.google.com.br/maps/place/'+ event.results[i][0].transcript.trim());
+    if (event.results[i].isFinal && event.results[i][0].transcript.trim() != 'voltar' ) {
+      window.open(('http://www.google.com.br/maps/place/'+ event.results[i][0].transcript.trim()));
+    }
+    if (event.results[i][0].transcript.trim()=== 'voltar'){
+      window.location.href = 'homepage.html';
     }
   }
 };
