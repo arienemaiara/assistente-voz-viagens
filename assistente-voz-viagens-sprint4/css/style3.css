@@ -1,0 +1,66 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: arial;
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+.title {
+  color: #fff;
+  font-size: 30px;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 1em;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+#survey-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote2 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+  border-radius: .3em;
+  background-color: #fff;
+  width: 20%;
+  height: auto;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+  border-radius: 20px;
+}
+
+.quote2:hover {
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.6);
+}
+
+#resultado {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#resultado2 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+@media screen and (max-width: 700px) {
+  .quote2 {
+    width: 35%;
+  }
+}

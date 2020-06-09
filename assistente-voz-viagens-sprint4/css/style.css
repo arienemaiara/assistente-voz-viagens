@@ -1,0 +1,180 @@
+h1, h2 {
+  font-family: Arial;
+}
+
+html,body {
+  margin-top: -5px;
+  width: 100%;
+  height:100%;
+}
+
+
+.bkg-result2{
+  font-size: 40px;
+  padding: 5px;
+}
+
+.bkg-answer{
+  font-size: 40px; 
+  background-color: #f0a500; 
+  border-radius: 30px; 
+  color: white; 
+  padding: 5px;
+}
+
+.bkg-talk{
+  color: #120136; 
+  font-size: 30px; 
+  background-color: #f0a500; 
+  border-radius: 10px; 
+  padding: 4px;
+}
+
+.bkg-title{
+  font-size: 60px; 
+  background-color: #ffa41b; 
+  color: #fff; 
+  border-radius: 5px; 
+  padding: 4px;
+}
+
+.bkg-news {
+  background-color: #dbe2ef !important; 
+}
+ 
+.bkg1 {
+  background-image: linear-gradient(to bottom, #3f72af, #dbe2ef);
+  
+}
+
+/*.bkg {
+  #283149, #404b69
+  #00e0ff, #74f9ff
+  #1fab89, #62d2a2
+  #521262, #6639a6
+  #c3bef0, #cadefc
+  #903749, #e84545
+  #112d4e, #3f72af
+  #3f72af, #dbe2ef
+  #11999e, #30e3ca
+  #b5bfc6, #eff2f9
+  background-image: url('travel-bkg.png');
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-color: #fff;
+  background-size: 1100px;
+  background-position-x: right;
+  background-position-y: top;
+}*/
+
+.comments {
+  width: 400px;
+}
+
+.comments .comment{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.comments .comment p{
+  margin: 0 0 10px 0;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.bubble {
+  position: relative;
+  padding: 2em;
+  border-radius: .3em;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+  background-color: #fff;
+}
+
+.bubble:hover {
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
+}
+
+.bubble::after {
+  content: "";
+  display: block;
+  position: absolute;
+
+  right: -15px;
+  bottom: 5px;
+
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 15px solid #fff;
+}
+
+.position {
+  padding-left: 150px;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin: auto;
+  position: relative;
+  left: 0;
+  top: 100px;
+}
+
+.assistant {
+  max-width: 400px;
+  max-height: 400px;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+.buttondiv {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.button1 {
+  border: 1px solid #7dce94;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: Arial;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.buttoncolor {
+  color: #7dce94;
+}
+
+.buttoncolor:hover{
+  color: #fff;
+}
+
+.button1::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #7dce94;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.buttoncolor::before {
+  top: 0;
+  border-radius: 0 0 50% 50% 50%;
+}
+
+.buttoncolor:hover::before{
+  height: 180%;
+}
