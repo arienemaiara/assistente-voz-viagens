@@ -1,28 +1,21 @@
-html, body {
+html body {
   margin: 0;
   height: 100%;
-  width: 100%;
+  background: #7dce94;
   font-family: arial;
-  background-color: #7dce94;
 }
 
 .title {
   color: #fff;
   font-size: 30px;
-}
-
-.title:hover {
-  text-decoration: underline;
+  text-align: center;
 }
 
 .container {
-  padding: 1em;
+  padding: 2em;
   display: grid;
   align-items: center;
   justify-content: center;
-  color: #fff;
-  font-size: 18px;
-  text-align: center;
 }
 
 
@@ -39,38 +32,37 @@ html, body {
   padding: 3em;
   border-radius: .3em;
   background-color: #fff;
-  width: 20%;
+  width: 500px;
   height: auto;
   box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
-  border-radius: 20px;
 }
 
 .quote2:hover {
   box-shadow: 10px 10px 30px rgba(0,0,0,0.6);
 }
 
-.align {
+.dropbold {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.radiocontainer {
   display: flex;
-  align-items: center;
-  align-items: center;
 }
 
-#resultado {
-  font-weight: bold;
-  font-size: 20px;
+.checkcontainer {
+  display: grid;
 }
 
-#resultado2 {
-  font-weight: bold;
-  font-size: 60px;
+.floatright {
+  float: right;
 }
 
-.hidden {
+.hide {
   visibility: hidden;
 }
 
-@media screen and (max-width: 700px) {
-  .quote2 {
-    width: 35%;
-  }
+.deco {
+  color: #000;
+  border-bottom: 1px solid;
 }

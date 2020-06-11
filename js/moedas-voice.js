@@ -12,6 +12,10 @@ window.onload = function() {
 //pega o resultado da recognition.start() e compara
 recognition.onresult = function(event) {
   for (let i = event.resultIndex; i < event.results.length; i++) {
+
+    if (event.results[i][0].transcript.trim()=== 'voltar'){
+      window.location.href = 'homepage.html';
+    }
     var text = (event.results[i][0].transcript.trim())
     //frase: VALOR de MOEDA1 para MOEDA2
 

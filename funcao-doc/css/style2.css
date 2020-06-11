@@ -74,13 +74,6 @@ html, body {
   margin-top: 5%;
 }
 
-.innercontainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1%;
-}
-
 .center {
   display: block;
   margin-left: auto;
@@ -91,7 +84,7 @@ html, body {
   display: grid;
   align-items: center;
   justify-content: center;
-  padding: 1.2em;
+  padding: 1.5em;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
   text-align: center;
   font-family: arial;
@@ -99,8 +92,6 @@ html, body {
   border-radius: 24px;
   font-size: 18px;
   background-color: #fff;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .button-style {
@@ -133,8 +124,5 @@ html, body {
     justify-content: center;
     width: auto;
     height: auto;
-  }
-  .innercontainer {
-    display: grid;
   }
 }
