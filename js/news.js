@@ -11,18 +11,13 @@ window.onload = function() {
 
 //pega o resultado da recognition.start() e compara
 recognition.onresult = function(event) {
+  
   for (let i = event.resultIndex; i < event.results.length; i++) {
-    if (event.results[i][0].transcript.trim()=== 'clima'){
-      window.location.href = 'climapage.html';
+    if (event.results[i].isFinal && event.results[i][0].transcript.trim() != 'voltar' ) {
+     window.open(`https://exame.com/?s=${event.results[i][0].transcript.trim()}`)
     }
-    if (event.results[i][0].transcript.trim()=== 'calculadora'){
-      window.location.href = 'pagina-conversao-moedas.html';
-    }
-    if (event.results[i][0].transcript.trim()=== 'mapa'){
-      window.location.href = 'mapapage.html';
-    }
-    if (event.results[i][0].transcript.trim()=== 'assuntos'){
-      window.location.href = 'news.html';
+    if (event.results[i][0].transcript.trim()=== 'voltar'){
+      window.location.href = 'homepage.html';
     }
   }
 };
