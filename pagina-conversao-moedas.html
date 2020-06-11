@@ -21,8 +21,10 @@
       <div id="survey-form">
         <div class="quote2">
           <b>Você pode falar ou fazer manualmente!</b>
-          <p>Fale desta forma: "NUMERO de DÓLAR/EURO/REAL para DÓLAR/EURO/REAL"<br>
-          Exemplo: "50 de dólar para real"</p>
+          <p>Fale desta forma: "<b><i>Número</i></b> de <b><i>dólar/euro/real</i></b> para <b><i>dólar/euro/real</i></b>"
+          <br>
+          <small>Exemplo: "50 de dólar para real".<br>
+          <small>*as vezes o número "1" não é reconhecido.</small></small></p>
 
           <label for= "moeda1">Selecione uma moeda:</label>
           <br>
@@ -68,26 +70,26 @@
           document.getElementById("resultado").innerHTML = "$ " + (real_dolar * script_valor).toFixed(3);
 
         } else if (script_moeda2 == "EUR") {
-          document.getElementById("resultado").innerHTML = "&euro; " + (real_euro * script_valor).toFixed(3);
+            document.getElementById("resultado").innerHTML = "&euro; " + (real_euro * script_valor).toFixed(3);
 
         }
       } else if (script_moeda1 == "USD") {
-        if (script_moeda2 == "BRL") {
-          document.getElementById("resultado").innerHTML = "R$ " + (dolar_real * script_valor).toFixed(3);
+          if (script_moeda2 == "BRL") {
+            document.getElementById("resultado").innerHTML = "R$ " + (dolar_real * script_valor).toFixed(3);
 
-        } else if (script_moeda2 == "EUR") {
-          document.getElementById("resultado").innerHTML = "&euro; " + (dolar_euro * script_valor).toFixed(3);
+          } else if (script_moeda2 == "EUR") {
+              document.getElementById("resultado").innerHTML = "&euro; " + (dolar_euro * script_valor).toFixed(3);
+          }
 
-        }
       } else if (script_moeda1 == "EUR") {
-        if (script_moeda2 == "BRL") {
-          document.getElementById("resultado").innerHTML = "R$ " + (euro_real * script_valor).toFixed(3);
+          if (script_moeda2 == "BRL") {
+            document.getElementById("resultado").innerHTML = "R$ " + (euro_real * script_valor).toFixed(3);
 
-        } else if (script_moeda2 == "USD") {
-          document.getElementById("resultado").innerHTML = "$ " + (euro_dolar * script_valor).toFixed(3);
+          } else if (script_moeda2 == "USD") {
+              document.getElementById("resultado").innerHTML = "$ " + (euro_dolar * script_valor).toFixed(3);
+          }
         }
       }
-    }
 
     </script>
 
