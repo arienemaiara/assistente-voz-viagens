@@ -12,10 +12,6 @@ window.onload = function() {
 //pega o resultado da recognition.start() e compara
 recognition.onresult = function(event) {
   for (let i = event.resultIndex; i < event.results.length; i++) {
-
-    if (event.results[i][0].transcript.trim()=== 'voltar'){
-      window.location.href = 'homepage.html';
-    }
     var text = (event.results[i][0].transcript.trim())
     //frase: VALOR de MOEDA1 para MOEDA2
 
@@ -44,21 +40,21 @@ recognition.onresult = function(event) {
         //as vezes o voice identifica "1" como "um", pra garantir
         if (valor.includes("um")) {
           //real_dolar é a variável que está no moedas.js, é a conversao
-          document.getElementById("resultado").innerHTML = "$ " + real_dolar.toFixed(3)
+          document.getElementById("resultado").innerHTML = "$ " + real_dolar.toFixed(2)
         }
         else {
           //para qualquer número que o comando de voz entender
           var valor_convertido = real_dolar * valor
-          document.getElementById("resultado").innerHTML = "$ " + valor_convertido.toFixed(3)
+          document.getElementById("resultado").innerHTML = "$ " + valor_convertido.toFixed(2)
         }
       }
       else if (moeda2.includes("eu")) {
         if (valor.includes("um")) {
-          document.getElementById("resultado").innerHTML = "€ " + real_euro.toFixed(3)
+          document.getElementById("resultado").innerHTML = "€ " + real_euro.toFixed(2)
         }
         else {
           var valor_convertido = real_euro * valor
-          document.getElementById("resultado").innerHTML = "€ " + valor_convertido.toFixed(3)
+          document.getElementById("resultado").innerHTML = "€ " + valor_convertido.toFixed(2)
         }
       }
       else {
@@ -69,20 +65,20 @@ recognition.onresult = function(event) {
     else if (moeda1 == ("d")) {
       if (moeda2.includes("re")) {
         if (valor.includes("um")) {
-          document.getElementById("resultado").innerHTML = "R$ " + dolar_real.toFixed(3)
+          document.getElementById("resultado").innerHTML = "R$ " + dolar_real.toFixed(2)
         }
         else {
           var valor_convertido = dolar_real * valor
-          document.getElementById("resultado").innerHTML = "R$ " + valor_convertido.toFixed(3)
+          document.getElementById("resultado").innerHTML = "R$ " + valor_convertido.toFixed(2)
         }
       }
       else if (moeda2.includes("eu")) {
         if (valor.includes("um")) {
-        document.getElementById("resultado").innerHTML = "€ " + dolar_euro.toFixed(3)
+        document.getElementById("resultado").innerHTML = "€ " + dolar_euro.toFixed(2)
         }
         else {
           var valor_convertido = dolar_euro * valor
-          document.getElementById("resultado").innerHTML = "€ " + valor_convertido.toFixed(3)
+          document.getElementById("resultado").innerHTML = "€ " + valor_convertido.toFixed(2)
         }
       }
       else {
@@ -93,20 +89,20 @@ recognition.onresult = function(event) {
     else if (moeda1 == ("e")) {
       if (moeda2.includes("re")) {
         if (valor.includes("um")) {
-          document.getElementById("resultado").innerHTML = "R$ " + euro_real.toFixed(3)
+          document.getElementById("resultado").innerHTML = "R$ " + euro_real.toFixed(2)
         }
         else {
           var valor_convertido = euro_real * valor
-          document.getElementById("resultado").innerHTML = "R$ " + valor_convertido.toFixed(3)
+          document.getElementById("resultado").innerHTML = "R$ " + valor_convertido.toFixed(2)
         }
       }
       else if (moeda2.includes("lar")) {
         if (valor.includes("um")) {
-          document.getElementById("resultado").innerHTML = "$ " + euro_dolar.toFixed(3)
+          document.getElementById("resultado").innerHTML = "$ " + euro_dolar.toFixed(2)
         }
         else {
           var valor_convertido = euro_dolar * valor
-          document.getElementById("resultado").innerHTML = "$ " + valor_convertido.toFixed(3)
+          document.getElementById("resultado").innerHTML = "$ " + valor_convertido.toFixed(2)
         }
       }
       else {
