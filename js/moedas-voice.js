@@ -33,7 +33,6 @@ recognition.onresult = function(event) {
     //variavel que irá identificara segunda moeda depois
     var moeda2 = texto_sem_valor.slice(-6)
     console.log(moeda2)
-
     //verifica a primeira letra da moeda
     if (moeda1 == "r") {
       //LAR é unico de dólar
@@ -41,87 +40,82 @@ recognition.onresult = function(event) {
         //as vezes o voice identifica "1" como "um", pra garantir
         if (valor.includes("um")) {
           //real_dolar é a variável que está no moedas.js, é a conversao
-          alert ("$ " + real_dolar.toFixed(3))
+          document.getElementById("resultado").innerHTML = "$ " + real_dolar.toFixed(3)
         }
         else {
+          //para qualquer número que o comando de voz entender
           var valor_convertido = real_dolar * valor
-          alert("$ " + valor_convertido.toFixed(3))
+          document.getElementById("resultado").innerHTML = "$ " + valor_convertido.toFixed(3)
         }
       }
       else if (moeda2.includes("eu")) {
         if (valor.includes("um")) {
-        alert ("&euro; " + real_euro.toFixed(3))
+          document.getElementById("resultado").innerHTML = "€ " + real_euro.toFixed(3)
         }
         else {
           var valor_convertido = real_euro * valor
-          alert("&euro; " + valor_convertido.toFixed(3))
+          document.getElementById("resultado").innerHTML = "€ " + valor_convertido.toFixed(3)
         }
       }
       else {
-        alert ("Desculpe, tente novamente.")
+        document.getElementById("resultado").innerHTML = "Desculpe, não te entendi."
       }
     }
-
 
     else if (moeda1 == ("d")) {
       if (moeda2.includes("re")) {
         if (valor.includes("um")) {
-        alert ("R$ " + dolar_real.toFixed(3))
+          document.getElementById("resultado").innerHTML = "R$ " + dolar_real.toFixed(3)
         }
         else {
           var valor_convertido = dolar_real * valor
-          alert("R$ " + valor_convertido.toFixed(3))
+          document.getElementById("resultado").innerHTML = "R$ " + valor_convertido.toFixed(3)
         }
       }
       else if (moeda2.includes("eu")) {
         if (valor.includes("um")) {
-        alert ("&euro; " + dolar_euro.toFixed(3))
+        document.getElementById("resultado").innerHTML = "€ " + dolar_euro.toFixed(3)
         }
         else {
           var valor_convertido = dolar_euro * valor
-          alert("&euro; " + valor_convertido.toFixed(3))
+          document.getElementById("resultado").innerHTML = "€ " + valor_convertido.toFixed(3)
         }
       }
       else {
-        alert ("Desculpe, tente novamente.")
+        document.getElementById("resultado").innerHTML = "Desculpe, não te entendi."
       }
     }
-
 
     else if (moeda1 == ("e")) {
       if (moeda2.includes("re")) {
         if (valor.includes("um")) {
-        alert ("R$ " + euro_real.toFixed(3))
+          document.getElementById("resultado").innerHTML = "R$ " + euro_real.toFixed(3)
         }
         else {
           var valor_convertido = euro_real * valor
-          alert("R$ " + valor_convertido.toFixed(3))
+          document.getElementById("resultado").innerHTML = "R$ " + valor_convertido.toFixed(3)
         }
       }
       else if (moeda2.includes("lar")) {
         if (valor.includes("um")) {
-        alert ("$ " + euro_dolar.toFixed(3))
+          document.getElementById("resultado").innerHTML = "$ " + euro_dolar.toFixed(3)
         }
         else {
           var valor_convertido = euro_dolar * valor
-          alert("$ " + valor_convertido.toFixed(3))
+          document.getElementById("resultado").innerHTML = "$ " + valor_convertido.toFixed(3)
         }
-
       }
       else {
-        alert ("Desculpe, tente novamente.")
+        document.getElementById("resultado").innerHTML = "Desculpe, não te entendi."
       }
-
     }
 
-  else if (texto == "voltar") {
-    window.location.href = 'homepage.html';
-  }
+    else if (texto == "voltar") {
+      window.location.href = 'homepage.html';
+    }
 
-  else {
-    alert ("Desculpe, tente novamente")
-  }
-
-
+    else {
+      document.getElementById("resultado").innerHTML = "Desculpe, não te entendi."
+    }
   }
 };
