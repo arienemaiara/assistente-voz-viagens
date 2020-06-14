@@ -15,7 +15,7 @@ recognition.onresult = function(event) {
     if (event.results[i].isFinal && event.results[i][0].transcript.trim() != 'voltar' ) {
       window.open(('http://www.google.com.br/maps/place/'+ event.results[i][0].transcript.trim()));
     }
-    else if (event.results[i][0].transcript.trim()=== 'voltar'){
+    if (event.results[i][0].transcript.trim()=== 'voltar'){
       window.location.href = 'homepage.html';
     }
   }

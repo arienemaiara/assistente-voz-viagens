@@ -1,0 +1,68 @@
+html body {
+  margin: 0;
+  height: 100%;
+  background: #7dce94;
+  font-family: arial;
+}
+
+.title {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container {
+  padding: 2em;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#survey-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote2 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+  border-radius: .3em;
+  background-color: #fff;
+  width: 500px;
+  height: auto;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+}
+
+.quote2:hover {
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.6);
+}
+
+.dropbold {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.radiocontainer {
+  display: flex;
+}
+
+.checkcontainer {
+  display: grid;
+}
+
+.floatright {
+  float: right;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.deco {
+  color: #000;
+  border-bottom: 1px solid;
+}
