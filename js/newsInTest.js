@@ -12,13 +12,14 @@ window.onload = function() {
 //pega o resultado da recognition.start() e compara
 recognition.onresult = function(event) {
     const newsList = document.querySelector('.news-list');
+    let about = event.results[i][0].transcript.trim();
     newsList.innerHTML = ''
 
   for (let i = event.resultIndex; i < event.results.length; i++) {
     if (event.results[i].isFinal && event.results[i][0].transcript.trim() != 'voltar' ) {
         
         //Pegar dados json e mostrar no console e html
-        fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=4f756cb6c2ad4ec98f5a12a94a083369')
+        fetch(`https://newsapi.org/v2/everything?q=${about}&apiKey=4f756cb6c2ad4ec98f5a12a94a083369`)
         .then(response =>{
           return response.json()
         })
