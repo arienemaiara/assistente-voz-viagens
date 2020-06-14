@@ -16,6 +16,7 @@ recognition.onresult = function(event) {
 
   for (let i = event.resultIndex; i < event.results.length; i++) {
     let about = event.results[i][0].transcript.trim();
+    console.log(about);
     if (event.results[i].isFinal && event.results[i][0].transcript.trim() != 'voltar' ) {
         
         //Pegar dados json e mostrar no console e html

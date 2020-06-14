@@ -22,7 +22,7 @@ body {
   #b5bfc6, #eff2f9*/
 
 .comments {
-  width: 400px;
+  width: 450px;
 }
 
 .comments .comment{
@@ -32,7 +32,6 @@ body {
 
 .comments .comment p{
   margin: 0 0 10px 0;
-  font-weight: bold;
   font-size: 18px;
   font-family: Arial;
 }
