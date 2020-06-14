@@ -12,10 +12,10 @@ window.onload = function() {
 //pega o resultado da recognition.start() e compara
 recognition.onresult = function(event) {
     const newsList = document.querySelector('.news-list');
-    let about = event.results[i][0].transcript.trim();
     newsList.innerHTML = ''
 
   for (let i = event.resultIndex; i < event.results.length; i++) {
+    let about = event.results[i][0].transcript.trim();
     if (event.results[i].isFinal && event.results[i][0].transcript.trim() != 'voltar' ) {
         
         //Pegar dados json e mostrar no console e html
