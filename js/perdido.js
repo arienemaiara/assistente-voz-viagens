@@ -1,7 +1,7 @@
 var recognition = new webkitSpeechRecognition();
 recognition.continuous = true;
 recognition.lang = 'pt-BR';
-recognition.interimResults = true;
+recognition.interimResults = false;
 recognition.maxAlternatives = 1;
 
 //quando a página terminar de carregar a função é disparada
@@ -12,7 +12,7 @@ window.onload = function() {
 //pega o resultado da recognition.start() e compara
 recognition.onresult = function(event) {
   for (let i = event.resultIndex; i < event.results.length; i++) {
-    if (event.results[i][0].transcript.trim()=== 'perdido'){
+    if (event.results[i][0].transcript.trim()=== 'me encontre'){
       var x = document.getElementById("demo");
       function getLocation() {
         if (navigator.geolocation) {
@@ -27,9 +27,11 @@ recognition.onresult = function(event) {
         window.open('http://www.google.com.br/maps/place/'+ position.coords.latitude + position.coords.longitude);
       }
       getLocation(x);
+      console.log(event.results[i][0].transcript.trim());
     }
-    if (event.results[i][0].transcript.trim()=== 'voltar'){
+    else if (event.results[i][0].transcript.trim()=== 'voltar'){
       window.location.href = 'homepage.html';
     }
+    console.log(event.results[i][0].transcript.trim());
   }
 };

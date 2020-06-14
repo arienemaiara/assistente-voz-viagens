@@ -49,6 +49,21 @@ html, body {
   box-shadow: 10px 10px 30px rgba(0,0,0,0.6);
 }
 
+.quote3 {
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+  border-radius: .3em;
+  background-color: #fff;
+  height: auto;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+  border-radius: 20px;
+}
+
+.quote3:hover {
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.6);
+}
+
 .align {
   display: flex;
   align-items: center;
