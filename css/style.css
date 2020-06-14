@@ -5,6 +5,22 @@ body {
   background-color: #fff;
 }
 
+.bkg{background-image: linear-gradient(to bottom, #3bdf7f, #58eb95);
+  
+}
+
+/*.bkg {
+  #283149, #404b69
+  #00e0ff, #74f9ff
+  #1fab89, #62d2a2
+  #521262, #6639a6
+  #c3bef0, #cadefc
+  #903749, #e84545
+  #112d4e, #3f72af
+  #3f72af, #dbe2ef
+  #11999e, #30e3ca
+  #b5bfc6, #eff2f9*/
+
 .comments {
   width: 400px;
 }
