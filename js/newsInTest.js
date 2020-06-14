@@ -19,7 +19,7 @@ recognition.onresult = function(event) {
     if (event.results[i].isFinal && event.results[i][0].transcript.trim() != 'voltar' ) {
         
         //Pegar dados json e mostrar no console e html
-        fetch(`https://newsapi.org/v2/everything?q=${about}&apiKey=4f756cb6c2ad4ec98f5a12a94a083369`)
+        fetch(`https://newsapi.org/v2/everything?q=${about}&language=pt&apiKey=4f756cb6c2ad4ec98f5a12a94a083369`)
         .then(response =>{
           return response.json()
         })
