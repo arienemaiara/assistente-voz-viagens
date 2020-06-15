@@ -36,6 +36,8 @@ Uma assistente guiada por comando de voz para auxiliá-lo em sua viagem e estadi
 
 A Assistente utiliza comando de voz para fazer suas funções, portanto certifique-se de que seu microfone está ligado e desbloqueado.
 
+Para voltar à página de menu de funções fale "voltar" e será redirecionado até ela.
+
 Siga as instruções nas caixas de diálogo e pronto!
 
 ## Projeto desenvolvido para o curso de Banco de Dados da FATEC São José dos Campos
