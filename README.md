@@ -38,6 +38,8 @@ A Assistente utiliza comando de voz para fazer suas funções, portanto certifiq
 
 Siga as instruções nas caixas de diálogo e pronto!
 
+## Projeto desenvolvido para o curso de Banco de Dados da FATEC São José dos Campos
+
 ### Vídeo da Entrega 3
 
 (https://www.loom.com/share/620975322c244b12bfc26a5ca0351037)

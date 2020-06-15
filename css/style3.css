@@ -3,8 +3,9 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: arial;
-  background-color: rgba(0, 0, 255, 0.3);
+  background-color: #7DCE94;
 }
+
 
 .title {
   color: #fff;
@@ -49,13 +50,69 @@ html, body {
   box-shadow: 10px 10px 30px rgba(0,0,0,0.6);
 }
 
+.quote3 {
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+  border-radius: .3em;
+  background-color: #fff;
+  height: auto;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+  border-radius: 20px;
+}
+
+.quote3:hover {
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.6);
+}
+
+.align {
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+
 #resultado {
   font-weight: bold;
   font-size: 20px;
+}
+
+#resultado2 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 @media screen and (max-width: 700px) {
   .quote2 {
     width: 35%;
   }
+}
+
+.style-list {
+  font-size: 14px;
+  font: arial;
+  color: black;
+}
+
+li{
+  height: 30px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }

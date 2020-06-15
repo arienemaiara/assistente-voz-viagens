@@ -25,5 +25,5 @@ function getUserPosition() {
       temp.innerText = `-`;
     })
   }
-  
+
   getUserPosition();

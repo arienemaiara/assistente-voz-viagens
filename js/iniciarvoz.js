@@ -1,6 +1,5 @@
 (() => {
     const startBtn = document.querySelector('#start');
-    const output = document.querySelector('#output');
     function start() {
       const recognition = new webkitSpeechRecognition();
       recognition.interimResults = true;
@@ -17,3 +16,7 @@
       };
     startBtn.addEventListener('click', () => start());
   })();
+
+
+
+//vou deixar esses códigos aqui caso a gente precise mais tarde
