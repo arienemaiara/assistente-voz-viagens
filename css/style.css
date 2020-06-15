@@ -1,12 +1,15 @@
-body {
+html, body {
   background-image: url('backimage.png');
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-color: #fff;
+  margin: 0;
+  height: 100%;
+  weight: 100%;
 }
 
 .bkg{background-image: linear-gradient(to bottom, #7DCE94, #a1f1b8);
-  
+
 }
 
 /*.bkg {
