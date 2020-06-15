@@ -13,14 +13,16 @@ Uma assistente guiada por comando de voz para auxiliá-lo em sua viagem e estadi
 
 ## Funções do sistema:
 
-- Conversão de moeda
-    - Implementa o comando de voz em um algoritmo de conversão de moedas
-- Informar clima
-    - Utiliza o comando de voz para buscar o clima (em desenvolvimento)
-- Indicação de locais (cidades, estados, países)
+- Conversão de moeda.
+    - Implementa o comando de voz em um algoritmo de conversão de moedas.
+- Informar clima.
+    - Utiliza o comando de voz para buscar o clima.
+- Indicação de locais (cidades, estados, países).
     - Utiliza diretamente o comando de voz com o auxílio da função mapa do Google para procurar por: cidades, estados ou países.
-- Notícias recentes da cidade (em desenvolvimento)
-- Informar documentos necessários da viagem (em desenvolvimento)
+- Notícias recentes da cidade.
+    - Utiliza diretamente o comando de voz com o auxílio da API Google News para procurar notícias por: cidades, estados ou países.
+- Informar documentos necessários da viagem.
+- Informar localização atual do usuário, caso o mesmo esteja perdido.
 
 ### Integrantes da Equipe
 
