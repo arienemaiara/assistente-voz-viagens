@@ -27,12 +27,12 @@ Uma assistente guiada por comando de voz para auxiliá-lo em sua viagem e estadi
 ### Integrantes da Equipe
 
 - Ariene Maiara - Scrum Master
-- Carlos Vinícius - Desenvolvedor (Fullstack)
-- Danillo - Desenvolvedor
+- Carlos Vinícius - Desenvolvedor (Backend)
+- Danillo - Desenvolvedor (Backend)
 - Devanir - Desenvolvedor (Backend)
 - Johnny - Desenvolvedor (Backend)
-- Jeferson - Desenvolvedor (Frontend)
-- Jonatas Ferreira - Desenvolvedor
+- Jeferson - Desenvolvedor (Backend)
+- Jonatas Ferreira - Desenvolvedor (Fullstack)
 
 ## Uso
 
