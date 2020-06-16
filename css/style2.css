@@ -138,8 +138,6 @@ html, body {
   .innercontainer {
     display: grid;
   }
-<<<<<<< HEAD
-=======
 }
 
 .back{
@@ -151,5 +149,4 @@ html, body {
   padding: 10px;
   background-color: none;
   border-radius: 15px;
->>>>>>> sprint4
 }

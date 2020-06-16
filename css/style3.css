@@ -115,8 +115,6 @@ a:hover {
 
 a:active {
   text-decoration: underline;
-<<<<<<< HEAD
-=======
 }
 
 .back{
@@ -128,5 +126,4 @@ a:active {
   padding: 10px;
   background-color: none;
   border-radius: 15px;
->>>>>>> sprint4
 }
