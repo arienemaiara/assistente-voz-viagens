@@ -66,3 +66,17 @@ html body {
   color: #000;
   border-bottom: 1px solid;
 }
+<<<<<<< HEAD
+=======
+
+.back{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: none;
+  border-radius: 15px;
+}
+>>>>>>> sprint4

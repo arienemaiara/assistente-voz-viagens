@@ -128,3 +128,14 @@ body {
 .buttoncolor:hover::before{
   height: 180%;
 }
+
+.back{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: none;
+  border-radius: 15px;
+}
