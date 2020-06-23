@@ -11,9 +11,18 @@ window.onload = function() {
 
 //pega o resultado da recognition.start() e compara
 recognition.onresult = function(event) {
+
   for (let i = event.resultIndex; i < event.results.length; i++) {
-    if (event.results[i][0].transcript.trim()=== 'me encontre'){
+
       var x = document.getElementById("demo");
+
+
+
+      function showPosition(position) {
+        x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
+        imap = window.open(('http://www.google.com.br/maps/place/'+ position.coords.latitude + position.coords.longitude)+"imap");
+      }
+
       function getLocation() {
         if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(showPosition);
@@ -22,16 +31,18 @@ recognition.onresult = function(event) {
           x.innerHTML = "Geolocation não é suportada por esse navegador.";
         }
       }
-      function showPosition(position) {
-        x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
-        window.open('http://www.google.com.br/maps/place/'+ position.coords.latitude + position.coords.longitude);
+      
+
+      if (event.results[i][0].transcript.trim()=== 'me encontre'){        
+        getLocation(x);
       }
-      getLocation(x);
-      console.log(event.results[i][0].transcript.trim());
-    }
-    else if (event.results[i][0].transcript.trim()=== 'voltar'){
-      window.location.href = 'homepage.html';
-    }
-    console.log(event.results[i][0].transcript.trim());
+      
+      else if (event.results[i][0].transcript.trim()=== 'voltar'){
+        window.location.href = 'homepage.html';
+        imap.close();
+      }
+      else if (event.results[i][0].transcript.trim()=== 'fechar'){
+        imap.close();
+      }
   }
 };
