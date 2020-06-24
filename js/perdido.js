@@ -20,7 +20,7 @@ recognition.onresult = function(event) {
 
       function showPosition(position) {
         x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
-        imap = window.open(('http://www.google.com.br/maps/place/'+ position.coords.latitude + position.coords.longitude)+"imap");
+        imap = window.open(('http://www.google.com.br/maps/place/'+ position.coords.latitude + position.coords.longitude));
       }
 
       function getLocation() {
@@ -31,12 +31,12 @@ recognition.onresult = function(event) {
           x.innerHTML = "Geolocation não é suportada por esse navegador.";
         }
       }
-      
 
-      if (event.results[i][0].transcript.trim()=== 'me encontre'){        
+
+      if (event.results[i][0].transcript.trim()=== 'me encontre'){
         getLocation(x);
       }
-      
+
       else if (event.results[i][0].transcript.trim()=== 'voltar'){
         window.location.href = 'homepage.html';
         imap.close();

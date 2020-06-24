@@ -12,25 +12,28 @@ window.onload = function() {
 //pega o resultado da recognition.start() e compara
 recognition.onresult = function(event) {
   for (let i = event.resultIndex; i < event.results.length; i++) {
-    if (event.results[i][0].transcript.trim()=== 'clima'){
+
+    var resultado = event.results[i][0].transcript.trim();
+
+    if (resultado === 'clima') {
       window.location.href = 'climapage.html';
     }
-    else if (event.results[i][0].transcript.trim()=== 'calculadora'){
+    else if (resultado === 'calculadora'){
       window.location.href = 'conversaopage.html';
     }
-    else if (event.results[i][0].transcript.trim()=== 'mapa'){
+    else if (resultado === 'mapa'){
       window.location.href = 'mapapage.html';
     }
-    else if (event.results[i][0].transcript.trim()=== 'documento'){
+    else if (resultado === 'documento'){
       window.location.href = 'docpage.html';
     }
-    else if (event.results[i][0].transcript.trim()=== 'posição'){
+    else if (resultado === 'posição'){
       window.location.href = 'perdidopage.html';
     }
-    else if (event.results[i][0].transcript.trim()=== 'notícias'){
+    else if (resultado === 'notícias'){
       window.location.href = 'news.html';
     }
-    else if (event.results[i][0].transcript.trim()=== 'início'){
+    else if (resultado === 'início'){
       window.location.href = 'index.html';
     }
   }
