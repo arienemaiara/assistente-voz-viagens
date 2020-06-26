@@ -33,6 +33,7 @@ recognition.onresult = function(event) {
     //variavel que irá identificara segunda moeda depois
     var moeda2 = texto_sem_valor.slice(-6)
     console.log(moeda2)
+    var valor_convertido
     //verifica a primeira letra da moeda
     if (moeda1 == "r") {
       //LAR é unico de dólar
@@ -44,7 +45,7 @@ recognition.onresult = function(event) {
         }
         else {
           //para qualquer número que o comando de voz entender
-          var valor_convertido = real_dolar * valor
+          valor_convertido = real_dolar * valor
           document.getElementById("resultado").innerHTML = "$ " + valor_convertido.toFixed(2)
         }
       }
@@ -53,7 +54,7 @@ recognition.onresult = function(event) {
           document.getElementById("resultado").innerHTML = "€ " + real_euro.toFixed(2)
         }
         else {
-          var valor_convertido = real_euro * valor
+          valor_convertido = real_euro * valor
           document.getElementById("resultado").innerHTML = "€ " + valor_convertido.toFixed(2)
         }
       }
@@ -68,7 +69,7 @@ recognition.onresult = function(event) {
           document.getElementById("resultado").innerHTML = "R$ " + dolar_real.toFixed(2)
         }
         else {
-          var valor_convertido = dolar_real * valor
+          valor_convertido = dolar_real * valor
           document.getElementById("resultado").innerHTML = "R$ " + valor_convertido.toFixed(2)
         }
       }
@@ -77,7 +78,7 @@ recognition.onresult = function(event) {
         document.getElementById("resultado").innerHTML = "€ " + dolar_euro.toFixed(2)
         }
         else {
-          var valor_convertido = dolar_euro * valor
+          valor_convertido = dolar_euro * valor
           document.getElementById("resultado").innerHTML = "€ " + valor_convertido.toFixed(2)
         }
       }
@@ -92,7 +93,7 @@ recognition.onresult = function(event) {
           document.getElementById("resultado").innerHTML = "R$ " + euro_real.toFixed(2)
         }
         else {
-          var valor_convertido = euro_real * valor
+          valor_convertido = euro_real * valor
           document.getElementById("resultado").innerHTML = "R$ " + valor_convertido.toFixed(2)
         }
       }
@@ -101,7 +102,7 @@ recognition.onresult = function(event) {
           document.getElementById("resultado").innerHTML = "$ " + euro_dolar.toFixed(2)
         }
         else {
-          var valor_convertido = euro_dolar * valor
+          valor_convertido = euro_dolar * valor
           document.getElementById("resultado").innerHTML = "$ " + valor_convertido.toFixed(2)
         }
       }
