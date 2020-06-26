@@ -18,23 +18,26 @@ recognition.onresult = function(event) {
     if (resultado === 'clima') {
       window.location.href = 'climapage.html';
     }
-    else if (resultado === 'calculadora'){
+    else if (resultado === 'calculadora') {
       window.location.href = 'conversaopage.html';
     }
-    else if (resultado === 'mapa'){
+    else if (resultado === 'mapa') {
       window.location.href = 'mapapage.html';
     }
-    else if (resultado === 'documento'){
+    else if (resultado === 'documento') {
       window.location.href = 'docpage.html';
     }
-    else if (resultado === 'posição'){
+    else if (resultado === 'posição') {
       window.location.href = 'perdidopage.html';
     }
-    else if (resultado === 'notícias'){
+    else if (resultado === 'notícias') {
       window.location.href = 'news.html';
     }
-    else if (resultado === 'início'){
+    else if (resultado === 'início') {
       window.location.href = 'index.html';
+    }
+    else if(resultado === 'trajeto') {
+      window.location.href = 'rotaspage.html';
     }
   }
 };
