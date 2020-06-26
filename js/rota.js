@@ -14,7 +14,9 @@ recognition.onresult = function(event) {
   for (let i = event.resultIndex; i < event.results.length; i++) {
 
     var resultado = event.results[i][0].transcript.trim();
-
+    
+    var janela = window.open('', "janela");
+    
     if (resultado.includes('fechar')) {
       janela.close();
     }
@@ -31,8 +33,7 @@ recognition.onresult = function(event) {
       var cidade1 = listaCidades[0].trim();
       var cidade2 = listaCidades[1].trim();
 
-      var janela = window.open('http://www.google.com.br/maps/dir/'+ cidade1 + '/' + cidade2);
+      janela = window.open(('http://www.google.com.br/maps/dir/'+ cidade1 + '/' + cidade2), "janela");
     }
-
   }
 }
