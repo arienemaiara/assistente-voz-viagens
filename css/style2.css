@@ -134,6 +134,7 @@ html, body {
     justify-content: center;
     width: auto;
     height: auto;
+    margin-bottom: 20px;
   }
   .innercontainer {
     display: grid;
