@@ -1,6 +1,6 @@
 ![](https://i.ibb.co/jMf6yxy/assistente5.png)
 
-# Assistente de voz para viagens
+# NUNA, sua assistente de voz para viagens.
 
 Uma assistente guiada por comando de voz para auxiliá-lo em sua viagem e estadia.
 
@@ -13,16 +13,26 @@ Uma assistente guiada por comando de voz para auxiliá-lo em sua viagem e estadi
 
 ## Funções do sistema:
 
-- Conversão de moeda.
+- Calculadora.
     - Implementa o comando de voz em um algoritmo de conversão de moedas.
-- Informar clima.
-    - Utiliza o comando de voz para buscar o clima.
-- Indicação de locais (cidades, estados, países).
+
+- Clima.
+    - Utiliza o comando de voz para buscar e informar a temperatura da cidade.
+
+- Mapa (cidades, estados, países).
     - Utiliza diretamente o comando de voz com o auxílio da função mapa do Google para procurar por: cidades, estados ou países.
-- Notícias recentes da cidade.
+
+- Notícias.
     - Utiliza diretamente o comando de voz com o auxílio da API Google News para procurar notícias por: cidades, estados ou países.
-- Informar documentos necessários da viagem.
-- Informar localização atual do usuário, caso o mesmo esteja perdido.
+
+- Documento.
+    - Utiliza o comando de voz para levar o usuário até nossa check-list de documentos necessários para viagens.
+
+- Posição.
+    - Aplica a voz do usuário em um algoritmo que informa a sua localização para o Google maps.
+
+- Trajeto.
+    - Manipula o comando de voz do usuário para traçar uma rota do ponto a para o ponto b utilizando o Google maps.
 
 ### Integrantes da Equipe
 
@@ -31,7 +41,7 @@ Uma assistente guiada por comando de voz para auxiliá-lo em sua viagem e estadi
 - Danillo - Desenvolvedor (Backend)
 - Devanir - Desenvolvedor (Backend)
 - Johnny - Desenvolvedor (Backend)
-- Jeferson - Desenvolvedor (Backend)
+- Jeferson - Desenvolvedor (Fullstack)
 - Jonatas Ferreira - Desenvolvedor (Fullstack)
 
 ## Uso
@@ -39,6 +49,8 @@ Uma assistente guiada por comando de voz para auxiliá-lo em sua viagem e estadi
 A Assistente utiliza comando de voz para fazer suas funções, portanto certifique-se de que seu microfone está ligado e desbloqueado.
 
 Para voltar à página de menu de funções fale "voltar" e será redirecionado até ela.
+
+Fale "fechar" para que nossa assistente feche qualquer janela que ela abriu no navegador. 
 
 Siga as instruções nas caixas de diálogo e pronto!
 
