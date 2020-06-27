@@ -100,8 +100,9 @@ html, body {
   font-size: 18px;
   background-color: #fff;
   margin-right: 20px;
+  margin-bottom: -30px;
   width: 250px;
-  height: 150px;
+  height: 110px;
 }
 
 .button-style {
@@ -150,4 +151,16 @@ html, body {
   padding: 10px;
   background-color: none;
   border-radius: 15px;
+}
+
+img{
+  height: 35px;
+}
+
+p{
+  color: black; 
+  padding: 10px;
+  z-index: 5;
+  margin-top: 0;
+  margin-bottom: 0;
 }
