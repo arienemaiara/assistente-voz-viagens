@@ -14,20 +14,18 @@ recognition.onresult = function(event) {
   for (let i = event.resultIndex; i < event.results.length; i++) {
 
     var resultado = event.results[i][0].transcript.trim();
-    
-    var janela = window.open('', "janela");
-    
+
+
     if (resultado.includes('fechar')) {
+      var janela = window.open('', "janela");
       janela.close();
     }
     else if (resultado.includes('voltar')){
+      var janela = window.open('', "janela");
       window.location.href = 'homepage.html';
       janela.close();
     }
-    else if (resultado.includes('voz reiniciar')) {
-      recognition.start();
-    }
-    else {
+    else if (resultado.includes(' para ')) {
       var comando = resultado.replace(' para ', '|');
       var listaCidades = comando.split('|');
       var cidade1 = listaCidades[0].trim();

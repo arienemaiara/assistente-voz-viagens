@@ -12,18 +12,19 @@ window.onload = function() {
 recognition.onresult = function(event) {
   for (let i = event.resultIndex; i < event.results.length; i++) {
 
-    var janela = window.open(('https://www.anac.gov.br/assuntos/passageiros/documentos-para-embarque'), "janela");
+    var resultado = event.results[i][0].transcript.trim();
 
-    if (event.results[i].isFinal && event.results[i][0].transcript.trim()=== 'documento') {
-      janela;
+    if (resultado === 'documento') {
+      var site = window.open("https://www.anac.gov.br/assuntos/passageiros/documentos-para-embarque", "flag");
     }
-
-    else if (event.results[i].isFinal && event.results[i][0].transcript.trim()==='fechar') {
-      janela.close();
+    else if (resultado === 'fechar') {
+      var site = window.open("https://www.anac.gov.br/assuntos/passageiros/documentos-para-embarque", "flag");
+      site.close();
     }
-    else if (event.results[i].isFinal && event.results[i][0].transcript.trim()==='voltar'){
+    else if (resultado === 'voltar'){
+      var site = window.open("https://www.anac.gov.br/assuntos/passageiros/documentos-para-embarque", "flag");
       window.location.href = 'homepage.html';
-      janela.close();
+      site.close();
     }
   }
 };
