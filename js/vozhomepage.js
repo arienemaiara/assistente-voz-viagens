@@ -34,7 +34,7 @@ recognition.onresult = function(event) {
       window.location.href = 'news.html';
     }
     else if (resultado === 'aeroporto') {
-      window.location.href = "aeroportos.html"
+      window.location.href = "aeroportospage.html"
     }
     else if (resultado === 'trajeto') {
       window.location.href = 'rotaspage.html';
