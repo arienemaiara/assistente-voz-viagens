@@ -33,11 +33,14 @@ recognition.onresult = function(event) {
     else if (resultado === 'notícias') {
       window.location.href = 'news.html';
     }
+    else if (resultado === 'aeroporto') {
+      window.location.href = "aeroportos.html"
+    }
+    else if (resultado === 'trajeto') {
+      window.location.href = 'rotaspage.html';
+    }
     else if (resultado === 'início') {
       window.location.href = 'index.html';
-    }
-    else if(resultado === 'trajeto') {
-      window.location.href = 'rotaspage.html';
     }
   }
 };
