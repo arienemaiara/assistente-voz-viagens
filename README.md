@@ -59,9 +59,14 @@ Siga as instruções nas caixas de diálogo e pronto!
 
 ## Projeto desenvolvido para o curso de Banco de Dados da FATEC São José dos Campos
 
+
+### Vídeo da Entrega 5
+
+(https://www.loom.com/share/2d9fd1c90218407584c31a4f6a148936)
+
 ### Vídeo da Entrega 3
 
-(https://www.loom.com/share/620975322c244b12bfc26a5ca0351037)
+[Vídeo da terceira entrega](https://www.loom.com/share/620975322c244b12bfc26a5ca0351037)
 >>>>>>> sprint3
 
 ### Vídeo da Entrega 2
