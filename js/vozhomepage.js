@@ -39,6 +39,9 @@ recognition.onresult = function(event) {
     else if (resultado === 'trajeto') {
       window.location.href = 'rotaspage.html';
     }
+    else if (resultado === 'filmes') {
+      window.location.href = 'filmes.html';
+    }
     else if (resultado === 'início') {
       window.location.href = 'index.html';
     }
