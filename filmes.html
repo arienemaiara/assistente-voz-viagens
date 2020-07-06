@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<htm>
+  <head>
+    <title>Assistente de Viagem - Conversor de Moeda</title>
+    <!--apenas um placeholder pra testar durante o desenvolvimento da função-->
+
+    <!--jquery é necessário para pegar os dados da api no método que uso
+    jquery hosteado pela google, assim não precisa baixar nada-->
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/filmes.js"></script>
+    <script src="js/filmes-voice.js" ></script>
+    <script>api_filmes()</script>
+    <link rel="stylesheet" type="text/css" href="css/style3.css">
+  </head>
+
+  <body class="bkg">
+    <!--seleçao das moedas e o valor-->
+    <div class="container">
+      <h1 class="title">Sugestão de Filmes:</h1>
+    </div>
+      <div id="survey-form">
+        <div class="quote3">
+          Fale a palavra <b>"filme"</b> para receber uma sugestão de filme.<br><br><br>
+
+          <!--onde o resultado irá aparecer:-->
+            <p id= "resultado"></p>
+
+
+        </div>
+
+        <div class="back">
+          <p>Diga <strong>"voltar"</strong> para retornar à página de comandos.</p>
+        </div>
+      </div>
+
+  </body>
+
+</html>
