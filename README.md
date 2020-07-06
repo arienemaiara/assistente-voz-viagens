@@ -34,8 +34,11 @@ Uma assistente guiada por comando de voz para auxiliá-lo em sua viagem e estadi
 - Trajeto.
     - Manipula o comando de voz do usuário para traçar uma rota do ponto a para o ponto b utilizando o Google maps.
 
-- Aeroporto (em desenvolvimento).
+- Aeroporto.
     - Faz uso do comando de voz para entregar uma lista de aeroportos da cidade ou estado informado.
+    
+- Filmes.
+    - Faz uso do comando de voz para sugerir filmes.
 
 ### Integrantes da Equipe
 
