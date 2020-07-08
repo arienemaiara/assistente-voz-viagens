@@ -164,16 +164,3 @@ a:active {
   background-color: none;
   border-radius: 15px;
 }
-
-img{
-  float: left;
-  height: 90px;
-  position:relative;
-  border-color: black;
-  border-radius: 10px;
-  width: 120px;
-  margin-top: 5px;
-  margin-left: 5px;
-  box-shadow: black;
-  
-}

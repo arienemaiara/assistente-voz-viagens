@@ -93,6 +93,7 @@ recognition.onresult = function(event) {
     }
     else if (fala=== 'voltar'){
       window.location.href = 'homepage.html';
+      janela.close();
     }  
 }
 };

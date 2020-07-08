@@ -1,0 +1,179 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: arial;
+    background-color: #7DCE94;
+  }
+  
+  .div-float{
+    text-align: center;
+    float: left;
+    width: 550px;
+    height: 100px;
+    margin: 10px;
+    background-color: none;
+    border-radius: 10px;
+    border: 1px solid rgb(95, 94, 94);
+    list-style-type: decimal;
+    
+    }
+  
+  
+  .title {
+    color: #fff;
+    font-size: 30px;
+  }
+  
+  .title:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    padding: 1em;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  
+  #survey-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .quote2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    border-radius: .3em;
+    background-color: #fff;
+    width: 20%;
+    height: auto;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+    border-radius: 20px;
+  }
+  
+  .quote2:hover {
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.6);
+  }
+  
+  .quote3 {
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    border-radius: .3em;
+    background-color: #fff;
+    height: auto;
+    width: 1000px;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+    border-radius: 20px;
+  }
+  
+  .quote3:hover {
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.6);
+  }
+  
+  .quote4 {
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    border-radius: .3em;
+    background-color: none;
+    height: auto;
+    width: 1200px;
+    border-radius: 20px;
+    
+    
+  }
+  
+  .align {
+    display: flex;
+    align-items: center;
+    align-items: center;
+  }
+  
+  #resultado {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  #resultado2 {
+    font-weight: bold;
+    font-size: 60px;
+  }
+  
+  .hidden {
+    visibility: hidden;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .quote2 {
+      width: 35%;
+    }
+  }
+  
+  .style-list {
+    font-size: 14px;
+    font: arial;
+    color: black;
+    
+  }
+  
+  li{
+    height: 30px;
+    
+  }
+  
+  a:link {
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    
+  }
+  
+  a:visited {
+    text-decoration: none;
+   
+  }
+  
+  a:hover {
+    text-decoration: underline;
+   
+  }
+  
+  a:active {
+    text-decoration: underline;
+    
+    
+  }
+  
+  .back{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: none;
+    border-radius: 15px;
+  }
+
+img{
+    float: left;
+    height: 90px;
+    position:relative;
+    border-color: black;
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 5px;
+    box-shadow: black;
+    
+  }
