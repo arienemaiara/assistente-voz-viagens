@@ -1,0 +1,66 @@
+body {
+  height: 100%;
+  font-family: arial;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+
+.navcontainer {
+  display: block;
+  width: 20%;
+  background-color: rgba(0,0,0,0.2);
+  padding: auto;
+  height: 25%;
+  position: fixed;
+}
+
+.list-style {
+  margin: 0;
+  padding: 0;
+}
+
+.title1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+  border-top: 1px solid;
+  display: block;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.main-section {
+  border-bottom: 1px solid;
+}
+
+#main-doc {
+  display: grid;
+  grid-column-start: 2;
+  margin-left: 20px;
+}
+
+
+code {
+  background-color: rgba(0,0,0,0.1)
+}
+
+@media only screen and (max-width: 680px) {
+
+  .navcontainer {
+    position: sticky;
+    width: 100%;
+  }
+  .container {
+    display: block;
+    width: 100%;
+  }
+}

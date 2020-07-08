@@ -45,5 +45,8 @@ recognition.onresult = function(event) {
     else if (resultado === 'início') {
       window.location.href = 'index.html';
     }
+    else if (resultado === 'ajuda') {
+      window.location.href = 'docpage2.html';
+    }
   }
 };

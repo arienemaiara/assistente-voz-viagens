@@ -5,6 +5,10 @@ html body {
   font-family: arial;
 }
 
+.font_size {
+  font-size: 18px;
+}
+
 .title {
   color: #fff;
   font-size: 30px;
@@ -43,7 +47,7 @@ html body {
 
 .dropbold {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .radiocontainer {
