@@ -64,8 +64,14 @@ Siga as instruções nas caixas de diálogo e pronto!
 
 ### Vídeo da Entrega 3
 
-(https://www.loom.com/share/620975322c244b12bfc26a5ca0351037)
->>>>>>> sprint3
+### Entrega 5
+Optamos por apresentação em aula.
+
+### Entrega 4
+Optamos por apresentação em aula.
+
+### Vídeo da Entrega 3
+[Vídeo da terceira entrega](https://www.loom.com/share/620975322c244b12bfc26a5ca0351037)
 
 ### Vídeo da Entrega 2
 [Vídeo da primeira/segunda entrega](https://www.loom.com/share/fa1e0fa0c4724228a0d2edfdfc510cff)
