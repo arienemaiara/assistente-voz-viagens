@@ -14,6 +14,9 @@ html, body {
   margin: 10px;
   background-color: none;
   border-radius: 10px;
+  border: 1px solid rgb(95, 94, 94);
+  list-style-type: decimal;
+  
   }
 
 
@@ -85,6 +88,8 @@ html, body {
   height: auto;
   width: 1200px;
   border-radius: 20px;
+  
+  
 }
 
 .align {
@@ -117,26 +122,36 @@ html, body {
   font-size: 14px;
   font: arial;
   color: black;
+  
 }
 
 li{
   height: 30px;
+  
 }
 
 a:link {
   text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  
 }
 
 a:visited {
   text-decoration: none;
+ 
 }
 
 a:hover {
   text-decoration: underline;
+ 
 }
 
 a:active {
   text-decoration: underline;
+  
+  
 }
 
 .back{
@@ -154,6 +169,11 @@ img{
   float: left;
   height: 90px;
   position:relative;
-  padding-left: 10px;
   border-color: black;
+  border-radius: 10px;
+  width: 120px;
+  margin-top: 5px;
+  margin-left: 5px;
+  box-shadow: black;
+  
 }
