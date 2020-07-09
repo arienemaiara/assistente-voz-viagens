@@ -16,7 +16,7 @@ html, body {
   border-radius: 10px;
   border: 1px solid rgb(95, 94, 94);
   list-style-type: decimal;
-  
+
   }
 
 
@@ -70,7 +70,8 @@ html, body {
   border-radius: .3em;
   background-color: #fff;
   height: auto;
-  width: 1000px;
+  width: auto;
+  min-width: 250px;
   box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
   border-radius: 20px;
 }
@@ -88,8 +89,10 @@ html, body {
   height: auto;
   width: 1200px;
   border-radius: 20px;
-  
-  
+}
+
+.fontSize {
+  font-size: 22px;
 }
 
 .align {
@@ -122,12 +125,12 @@ html, body {
   font-size: 14px;
   font: arial;
   color: black;
-  
+
 }
 
 li{
   height: 30px;
-  
+
 }
 
 a:link {
@@ -135,23 +138,23 @@ a:link {
   font-size: large;
   font-weight: bold;
   color: black;
-  
+
 }
 
 a:visited {
   text-decoration: none;
- 
+
 }
 
 a:hover {
   text-decoration: underline;
- 
+
 }
 
 a:active {
   text-decoration: underline;
-  
-  
+
+
 }
 
 .back{
