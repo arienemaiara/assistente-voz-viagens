@@ -19,7 +19,7 @@ Uma assistente guiada por comando de voz para auxiliá-lo em sua viagem e estadi
 - Clima.
     - Utiliza o comando de voz para buscar e informar a temperatura da cidade.
 
-- Mapa (cidades, estados, países).
+- Mapa.
     - Utiliza diretamente o comando de voz com o auxílio da função mapa do Google para procurar por: cidades, estados ou países.
 
 - Notícias.
@@ -61,8 +61,6 @@ Fale "fechar" para que nossa assistente feche qualquer janela que ela abriu no n
 Siga as instruções nas caixas de diálogo e pronto!
 
 ## Projeto desenvolvido para o curso de Banco de Dados da FATEC São José dos Campos
-
-### Vídeo da Entrega 3
 
 ### Entrega 5
 Optamos por apresentação em aula.
