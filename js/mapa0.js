@@ -14,6 +14,7 @@ recognition.onresult = function(event) {
 
   for (let i = event.resultIndex; i < event.results.length; i++) {
     var resultado = event.results[i][0].transcript.trim();
+    var resultado2 = resultado[0].toUpperCase();
 
 
     if (resultado.includes('fechar')) {
@@ -25,10 +26,8 @@ recognition.onresult = function(event) {
       window.location.href = 'homepage.html';
       janela.close();
     }
-    else if (resultado.includes('mapa ')) {
-      var comando = resultado.replace('mapa ', '');
-
-      janela = window.open(('http://www.google.com.br/maps/place/'+ comando), "janela");
+    else if (resultado[0] === resultado2){
+      janela = window.open(('http://www.google.com.br/maps/place/'+ resultado), "janela");
     }
   }
 };
