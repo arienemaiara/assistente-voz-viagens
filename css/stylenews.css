@@ -10,12 +10,11 @@ html, body {
     text-align: center;
     float: left;
     width: 550px;
-    height: 100px;
+    height: 120px;
     margin: 10px;
     background-color: none;
     border-radius: 10px;
     border: 1px solid rgb(95, 94, 94);
-    list-style-type: decimal;
     
     }
   
@@ -172,8 +171,18 @@ img{
     border-color: black;
     border-radius: 10px;
     width: 150px;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
     box-shadow: black;
     
   }
+
+  .contador {
+    color:black;
+    margin-left: 530px;
+    font-size: medium;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 50%;
+
+}

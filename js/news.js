@@ -37,20 +37,26 @@ recognition.onresult = function(event) {
       })
       .then((data)=>{
         console.log(data)
+        j = 1;
         data.articles.forEach(article =>{
+          count = j++;
           div = document.createElement('div');
           a = document.createElement('a');
           p = document.createElement('p')
           img = document.createElement('img');
+          c = document.createElement('c');
           img.setAttribute('src', article.urlToImage);
           div.setAttribute('class', 'div-float');
           a.setAttribute('href', article.url);
           a.setAttribute('target', '_blanck');
+          c.setAttribute('class','contador');
           a.textContent = article.title;
           p.textContent = article.source.name;
+          c.textContent = count;
           div.appendChild(img);
           div.appendChild(a);
-          div.appendChild(p)
+          div.appendChild(p);
+          div.appendChild(c);
           
           newsList.appendChild(div);
           teste0 = document.getElementsByTagName('a')[0];
