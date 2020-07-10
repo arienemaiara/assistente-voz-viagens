@@ -13,21 +13,22 @@ window.onload = function() {
 recognition.onresult = function(event) {
 
   for (let i = event.resultIndex; i < event.results.length; i++) {
+    var resultado = event.results[i][0].transcript.trim();
 
-    var text = event.results[i][0].transcript.trim();
-    console.log("Esse é o text: "+text);
 
-    var janela = window.open(('http://www.google.com.br/maps/place/'+ text), "janela");
-
-    if (text.includes('fechar')) {
+    if (resultado.includes('fechar')) {
+      var janela = window.open('', "janela");
       janela.close();
     }
-    else if (text.includes('voltar')){
+    else if (resultado.includes('voltar')){
+      var janela = window.open('', "janela");
       window.location.href = 'homepage.html';
       janela.close();
     }
-    else {
-      janela;
+    else if (resultado.includes('mapa ')) {
+      var comando = resultado.replace('mapa ', '');
+
+      janela = window.open(('http://www.google.com.br/maps/place/'+ comando), "janela");
     }
   }
 };
