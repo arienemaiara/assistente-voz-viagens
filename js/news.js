@@ -44,7 +44,7 @@ recognition.onresult = function(event) {
           a = document.createElement('a');
           p = document.createElement('p')
           img = document.createElement('img');
-          c = document.createElement('c');
+          c = document.createElement('p');
           img.setAttribute('src', article.urlToImage);
           div.setAttribute('class', 'div-float');
           a.setAttribute('href', article.url);

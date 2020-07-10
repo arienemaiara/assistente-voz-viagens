@@ -131,26 +131,10 @@ html, body {
   
   a:link {
     text-decoration: none;
-    font-size: large;
-    font-weight: bold;
+    font-size: medium;
+    font-weight: 700;
     color: black;
-    
-  }
-  
-  a:visited {
-    text-decoration: none;
-   
-  }
-  
-  a:hover {
-    text-decoration: underline;
-   
-  }
-  
-  a:active {
-    text-decoration: underline;
-    
-    
+    min-height: 250px;
   }
   
   .back{
@@ -178,6 +162,12 @@ img{
   }
 
   .contador {
+    float: right;
+    height: 18px;
+    width: 18px;
+    position: relative;
+    bottom: 30px;
+    right: 180px;
     color:black;
     margin-left: 530px;
     font-size: medium;
@@ -186,3 +176,4 @@ img{
     border-radius: 50%;
 
 }
+
