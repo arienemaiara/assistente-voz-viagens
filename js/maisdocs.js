@@ -11,7 +11,7 @@ window.onload = function() {
 
 recognition.onresult = function(event) {
   for (let i = event.resultIndex; i < event.results.length; i++) {
-
+    // guarda o resultado do reconhecimento de voz dentro de uma variável
     var resultado = event.results[i][0].transcript.trim();
 
     if (resultado === 'documento') {

@@ -14,6 +14,8 @@ recognition.onresult = function(event) {
 
   for (let i = event.resultIndex; i < event.results.length; i++) {
     var resultado = event.results[i][0].transcript.trim();
+    // tranforma a primeira letra do resultado para Maiúscula para que a função
+    // filtre inputs descuidados
     var resultado2 = resultado[0].toUpperCase();
 
 

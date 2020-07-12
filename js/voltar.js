@@ -1,3 +1,4 @@
+// protótipo da função voltar, criada para agilizar o uso da assistente
 var recognition = new webkitSpeechRecognition();
 recognition.continuous = true;
 recognition.lang = 'pt-BR';

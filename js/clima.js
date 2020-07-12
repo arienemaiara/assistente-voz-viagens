@@ -21,7 +21,7 @@ function getUserPosition() {
       temp.innerText = tempInCelsius;
     })
     .catch((err) => {
-      city.innerText = `Impossível acessar o OpenWeather. Verifique a sua conexão.`;
+      city.innerText = `Impossível executar a função. Verifique a sua conexão.`;
       temp.innerText = `-`;
     })
   }

@@ -19,4 +19,4 @@
 
 
 
-//vou deixar esses códigos aqui caso a gente precise mais tarde
+// código antigo para reconhecimento de voz

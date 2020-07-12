@@ -1,5 +1,5 @@
 
-//vareaveis para serem usadas no arquivo html
+//variáveis para serem usadas no arquivo html
 var real_dolar
 var real_euro
 var dolar_real

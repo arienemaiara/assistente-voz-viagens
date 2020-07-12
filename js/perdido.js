@@ -13,7 +13,8 @@ window.onload = function() {
 recognition.onresult = function(event) {
 
   for (let i = event.resultIndex; i < event.results.length; i++) {
-
+      // pega o elemento que será usado para guardar o resultado aritmético da função
+      // showPosition e getLocation
       var x = document.getElementById("demo");
 
 
@@ -28,6 +29,7 @@ recognition.onresult = function(event) {
           navigator.geolocation.getCurrentPosition(showPosition);
         }
         else {
+          // aviso caso o navegador não suporte a função
           x.innerHTML = "Geolocation não é suportada por esse navegador.";
         }
       }
