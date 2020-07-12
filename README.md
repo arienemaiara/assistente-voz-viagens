@@ -62,6 +62,9 @@ Siga as instruções nas caixas de diálogo e pronto!
 
 ## Projeto desenvolvido para o curso de Banco de Dados da FATEC São José dos Campos
 
+### Entrega 6
+[Vídeo da sexta entrega](https://www.youtube.com/watch?v=1QzIrokqEVg)
+
 ### Entrega 5
 Optamos por apresentação em aula.
 
