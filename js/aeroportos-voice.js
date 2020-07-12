@@ -15,8 +15,11 @@ recognition.onresult = function(event) {
     var text = (event.results[i][0].transcript.trim())
     estado_raw = text
     console.log(text)
+    //converte o texto para este tipo de codificação,
+    //é necessário caso tenha algum caracter especial, como "ã, é"
     estado = encodeURIComponent(estado_raw)
     console.log(estado)
+    //executa a função da api que está em outro arquivo
     api_aeroportos()
 
     if (text.includes("voltar")) {
