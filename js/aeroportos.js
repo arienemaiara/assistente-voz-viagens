@@ -1,8 +1,10 @@
 
 var estado
 
+//colocado em função para poder ser executada em outro arquivo
 function api_aeroportos(){
 
+	//daqui até "$.ajax" veio pronto do site da api
 	var settings = {
 		"async": true,
 		"crossDomain": true,
@@ -18,6 +20,7 @@ function api_aeroportos(){
 		console.log(response);
 		var resposta = ""
 
+		//FOR usado para acessar os resultados que a api retorna
 		for (var i = 0; i < response.Places.length; i++) {
 			var aeroportos = response.Places[i];
 			resposta = resposta + aeroportos.PlaceName + "<br>"
